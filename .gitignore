@@ -1,0 +1,111 @@
+# 环境变量和配置文件
+.env
+.env.local
+.env.production
+.env.test
+config.ini
+settings.ini
+
+# API密钥和敏感信息
+**/api_keys/
+**/secrets/
+*.key
+*.pem
+*.p12
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# MySQL数据库备份
+*.sql
+*.dump
+
+# 文档和数据文件
+data/documents/
+data/chroma_db/
+data/cache/
+uploads/
+documents/
+files/
+
+# 向量数据库
+chroma_db/
+vector_store/
+embeddings/
+
+# 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 测试输出
+test_output/
+test_results/
+coverage/
+.coverage
+.pytest_cache/
+
+# 模型文件和大文件
+*.model
+*.bin
+*.pt
+*.pth
+models/
+checkpoints/
+
+# 日志文件
+logs/
+*.log
+*.log.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 包管理文件
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# 其他
+.DS_Store
+node_modules/
+dist/
+build/
