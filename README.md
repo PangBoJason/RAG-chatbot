@@ -324,11 +324,6 @@ logging.basicConfig(level=logging.DEBUG)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 打开一个Pull Request
 
-## 联系方式
-
-- 项目维护者: GitHub Copilot
-- 问题反馈: 请使用GitHub Issues
-- 技术讨论: 欢迎在Discussion区域交流
 
 ---
 
